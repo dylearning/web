@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /ios/
+
+Disallow: .jpg$
+Disallow: .jpeg$
+Disallow: .gif$
+Disallow: .png$
+Disallow: .bmp$

@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /images/
+Disallow: /course/
+
+Disallow: .jpg$
+Disallow: .jpeg$
+Disallow: .gif$
+Disallow: .png$
+Disallow: .bmp$

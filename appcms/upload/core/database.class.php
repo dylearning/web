@@ -7,9 +7,10 @@
  * Editor: loyjers
 
  */
+ // 关闭错误报告
+ //error_reporting(0);
 
-error_reporting(E_ALL ^ E_DEPRECATED);//dengying
- 
+ error_reporting(E_ALL ^ E_DEPRECATED);//dengying
 class db_mysql {
     public $query_count = 0; //数据库操作次数
     private $conn; //数据库连接对象

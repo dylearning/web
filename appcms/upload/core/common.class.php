@@ -101,7 +101,7 @@ class common
                 $content[] = $v['q'];
             }
         } else {
-            $content = array('大富翁', '神庙', 'UC', '超级玛丽', '视频播放器');
+            $content = array('DengYing', '神庙', 'UC', '超级玛丽', '视频播放器');//dengying
         }
         return $content;
     }

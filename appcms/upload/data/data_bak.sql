@@ -25,9 +25,9 @@ create table if not exists `appcms_app_list` (
  `data_app_id` int(11) not null default 0 comment '数据中心应用ID',
  `charge_app_id` int(11) not null default 0 comment '独立计费包ID',
  `rewrite_tag` varchar(100) NOT NULL DEFAULT '' COMMENT 'app页面伪静态标签',
- `seo_title` text NULL COMMENT '应用SEO标题',
- `seo_keywords` text NULL  COMMENT '应用SEO关键字',
- `seo_desc` text NULL COMMENT '应用SEO描述',
+ `seo_title` text NULL DEFAULT '' COMMENT '应用SEO标题',
+ `seo_keywords` text NULL DEFAULT '' COMMENT '应用SEO关键字',
+ `seo_desc` text NULL DEFAULT '' COMMENT '应用SEO描述',
  primary key (`app_id`),
  index `cate_update_time` (`last_cate_id`,`app_update_time`),
  index `cate_order` (`last_cate_id`,`app_order`),
@@ -54,7 +54,7 @@ create table if not exists `appcms_app_history` (
 ) engine=myisam default charset=utf8 comment '应用历史版本表';
 
 create table if not exists `appcms_search_keyword` (
-  `id` int(11) unsigned not null auto_increment,
+  `id` int(11) unsigned null null auto_increment,
   `q` varchar(200) not null default '' comment '搜索关键字',
   `qnum` int(11) unsigned not null default 0 comment '搜索次数',
   `qorder` int(11) unsigned not null default 0 comment '关键字排序',

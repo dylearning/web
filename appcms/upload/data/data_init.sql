@@ -1,8 +1,5 @@
 
-insert ignore into appcms_flink (flink_id,flink_name,flink_url,flink_is_site) values(1,'AppCMS','http://www.appcms.cc/',0);
-insert ignore into appcms_flink (flink_id,flink_name,flink_url,flink_is_site) values(2,'安卓工厂','http://www.an12.com/',0);
-insert ignore into appcms_flink (flink_id,flink_name,flink_url,flink_is_site) values(3,'App联盟','http://union.appcms.cc',0);
-insert ignore into appcms_flink (flink_id,flink_name,flink_url,flink_is_site) values(4,'安卓网','http://www.androidnet.cn',0);
+insert ignore into appcms_flink (flink_id,flink_name,flink_url,flink_is_site) values(1,'试玩521','https://www.shiwan521.com/',0);
 
 
 insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) values(1,'list_app','index.php?tpl=list_app&cid={cid}&p={p}','app/list_{cid}_{p}.html');
@@ -26,8 +23,8 @@ insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) value
 insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) values(19,'img','pic.php?url={url}&type={type}','image/{url}.{type}');
 insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) values(20,'content_info_list','index.php?tpl=content_info&id={id}&p={p}','info/{id}_{p}.html');
 
-INSERT ignore INTO `appcms_category` VALUES (1, 0, '软件', 'soft', '', '', '', 0, '', 1, '', '', '', 0, 12);
-INSERT ignore INTO `appcms_category` VALUES (2, 0, '游戏', 'game', '', '', '', 0, '', 1, '', '', '', 0, 7);
+INSERT ignore INTO `appcms_category` VALUES (1, 0, '苹果赚钱', 'ios', '', '', '', 0, '', 1, '', '', '', 0, 12);
+INSERT ignore INTO `appcms_category` VALUES (2, 0, '安卓赚钱', 'game', '', '', '', 0, '', 1, '', '', '', 0, 7);
 
 INSERT ignore INTO `appcms_category` VALUES (3, 1, '系统输入', 'sysinput', '', '', '', 0, '', 1, '', '', '', 0, 2);
 INSERT ignore INTO `appcms_category` VALUES (4, 1, '聊天通讯', 'chat', '', '', '', 0, '', 1, '', '', '', 0, 3);
@@ -52,8 +49,8 @@ INSERT ignore INTO `appcms_category` VALUES (19, 0, '评测', 'review', '', '', 
 
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(1,'每日推荐',0,'首页右边推荐位，每天一个推荐','1');
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(2,'精品推荐',0,'首页左边的精品推荐位，一般15条数据','1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19');
-insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(3,'游戏排行',0,'首页的游戏排行推荐位，一般10条数据','1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16');
-insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(4,'应用排行',0,'首页的应用排行推荐位，一般10条数据','2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17');
+insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(3,'安卓赚钱软件排行榜',0,'首页的游戏排行推荐位，一般10条数据','1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16');
+insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(4,'热门苹果赚钱排行榜',0,'首页的应用排行推荐位，一般10条数据','2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17');
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(5,'下载排行',0,'首页的下载排行推荐位，一般10条数据','3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18');
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(6,'上升最快',0,'首页靠近右边的推荐位，一般10条数据','4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19');
 

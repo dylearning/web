@@ -11,8 +11,8 @@ define("SITE_PATH", "/appcms_2.0.0/upload/"); //站点安装路径，默认为�
 /**
  * 以下参数为可后台编辑
  */
-define("SITE_NAME", "安卓市场"); //站点名称
-define("SITE_URL", "http://www.appcms.cc"); //站点域名
+define("SITE_NAME", "试玩521 - 苹果iphone手机赚钱软件"); //站点名称
+define("SITE_URL", "https://www.shiwan521.com"); //站点域名
 define("SITE_LOGO", "/upload/logo.png"); //站点LOGO
 define("UPLOAD_PATH", "/img/"); //资源上传路径,相对于upload
 define("SITE_REWRITEURL", "0"); //是否开启伪静态重写 0==不开启，1==开启

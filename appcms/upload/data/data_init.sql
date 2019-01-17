@@ -44,8 +44,8 @@ INSERT ignore INTO `appcms_category` VALUES (16, 2, '飞行射击', 'flyshoot', 
 INSERT ignore INTO `appcms_category` VALUES (17, 2, '经营策略', 'business', '', '', '', 0, '', 1, '', '', '', 0, 1);
 INSERT ignore INTO `appcms_category` VALUES (18, 2, '棋牌天地', 'chess', '', '', '', 0, '', 1, '', '', '', 0, 0);
 
-INSERT ignore INTO `appcms_category` VALUES (19, 0, '评测', 'review', '', '', '', 0, '', 1, '', '', '', 1, 1);
-
+INSERT ignore INTO `appcms_category` VALUES (19, 0, '新手教程', 'newcourse', '', '', '', 0, '', 1, '', '', '', 1, 1);
+INSERT ignore INTO `appcms_category` VALUES (20, 0, '赚钱资讯', 'zixun', '', '', '', 0, '', 1, '', '', '', 1, 1);
 
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(1,'每日推荐',0,'首页右边推荐位，每天一个推荐','1');
 insert ignore into appcms_recommend_area(area_id,title,area_type,area_remarks,id_list) values(2,'精品推荐',0,'首页左边的精品推荐位，一般15条数据','1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19');

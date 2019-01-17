@@ -24,7 +24,7 @@ insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) value
 insert ignore into appcms_url_rewrite (url_id,url_title,url_true,url_rule) values(20,'content_info_list','index.php?tpl=content_info&id={id}&p={p}','info/{id}_{p}.html');
 
 INSERT ignore INTO `appcms_category` VALUES (1, 0, '苹果赚钱', 'ios', '', '', '', 0, '', 1, '', '', '', 0, 12);
-INSERT ignore INTO `appcms_category` VALUES (2, 0, '安卓赚钱', 'game', '', '', '', 0, '', 1, '', '', '', 0, 7);
+INSERT ignore INTO `appcms_category` VALUES (2, 0, '安卓赚钱', 'android', '', '', '', 0, '', 1, '', '', '', 0, 7);
 
 INSERT ignore INTO `appcms_category` VALUES (3, 1, '系统输入', 'sysinput', '', '', '', 0, '', 1, '', '', '', 0, 2);
 INSERT ignore INTO `appcms_category` VALUES (4, 1, '聊天通讯', 'chat', '', '', '', 0, '', 1, '', '', '', 0, 3);

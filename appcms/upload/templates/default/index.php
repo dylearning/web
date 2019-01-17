@@ -157,7 +157,7 @@
                 <?php $a = $c->get_list(array('count'=>0,'cate_id'=>19,'pagesize'=>8,'type'=>1,'rewrite'=>SITE_REWRITEURL));
                 //print_r($a);?>
                 <div class="bor-sty the-list">
-                    <span class="a-o">酷玩评测</span>
+                    <span class="a-o">最新资讯</span>
                     <ul class="list-o">
                     <?php foreach($a['list'] as $k => $v ){?>
                         <li><a href="<?php echo $v['surl'];?>"><?php echo $v['info_title'];?></a></li>

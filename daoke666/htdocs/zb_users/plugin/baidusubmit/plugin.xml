@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin version="php">
+<id>baidusubmit</id>
+<name>百度Sitemap</name>
+<url>http://www.zsxsoft.com</url>
+<note>安装百度Sitemap后，能又快又全的向百度提交网页及内容</note>
+<description>After installing Baidu Sitemaps, you can quickly and completely submit webpages and content to Baidu. It helps you with the following:
+1) Baidu Spider will better understand and include your site.
+2) Baidu Search will better display results from your site.
+
+安装百度Sitemap后，能又快又全的向百度提交网页及内容，有助于：
+1）百度 Spider 更好地了解您的网站，优化收录
+2）网站在百度搜索上得到更好展现
+您还可以到 百度站长平台提交：&lt;a href=&quot;http://zhanzhang.baidu.com/sitemap/index&quot; target=&quot;_blank&quot;&gt;sitemap&lt;/a&gt; | &lt;a href=&quot;http://zhanzhang.baidu.com/schema/index&quot; target=&quot;_blank&quot;&gt;结构化数据&lt;/a&gt; | &lt;a href=&quot;http://zhanzhang.baidu.com/badlink/index&quot; target=&quot;_blank&quot;&gt;死链提交&lt;/a&gt;
+使用过程中，有任何意见或建议请提至 百度站长反馈中心</description>
+<path>main.php</path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>zsx</name>
+  <email>zsx@zsxsoft.com</email>
+  <url>http://www.zsxsoft.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>150101</adapted>
+<version>1.4</version>
+<pubdate>2014-04-17</pubdate>
+<modified>2015-02-08</modified>
+<price>0</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</plugin>

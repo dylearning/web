@@ -1,9 +1,7 @@
-RewriteEngine on
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
+RewriteBase /shiwan789/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteRule . /shiwan789/index.php [L]
 </IfModule>

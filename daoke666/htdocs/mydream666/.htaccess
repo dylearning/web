@@ -1,5 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.mydream666.com$ [NC]
-RewriteRule (.*) http://www.mydream666.com/$1 [L,R=301]
-</IfModule>

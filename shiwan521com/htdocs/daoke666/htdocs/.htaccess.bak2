@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^syu4280010001.my3w.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/linshi
+RewriteRule ^(.*)$ /linshi/$1 [L]
+
+
+#RewriteCond %{HTTP_HOST} ^www.daoke666.com$ [NC]
+#RewriteCond %{REQUEST_URI} !^/daoke666/
+#RewriteRule ^(.*)$ daoke666/$1?Rewrite [L,QSA]
+
+
+#绑定 www.abc.com 到 abc子目录
+#	RewriteCond %{HTTP_HOST} ^www.abc.com$ [NC]
+#	RewriteCond %{REQUEST_URI} !^/abc/
+#	RewriteRule ^(.*)$ abc/$1?Rewrite [L,QSA]
+</IfModule>

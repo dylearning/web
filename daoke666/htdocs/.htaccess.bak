@@ -1,7 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^syu4280010001.my3w.com$ [NC]
-RewriteCond %{REQUEST_URI} !^/linshi
-RewriteRule ^(.*)$ /linshi/$1 [L]
-</IfModule>

@@ -1,1 +1,0 @@
-<form method="post" id="search_form" action="{$host}zb_system/cmd.php?act=search"><input name="q" id="edtSearch" value="请输入关键词" onblur="if(this.value=='')this.value='请输入关键词';" onfocus="if(this.value=='请输入关键词')this.value='';" type="text"><button type="submit" name="btnPost" id="btnPost">搜索</button></form>

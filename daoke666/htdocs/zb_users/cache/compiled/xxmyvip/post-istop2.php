@@ -1,3 +1,0 @@
-<div class="firstreed2">
-<a target="_blank" href="<?php  echo $article->Url;  ?>" title="<?php  echo $article->Title;  ?>"><div id="zhaiyaotu2"><img alt="<?php  echo $article->Title;  ?>" src="<?php  echo $article->Metas->prosptp;  ?>" /></div><h2><?php  echo $article->Title;  ?></h2><small><span class="jiage"><strong class="bh">¥ <?php  echo $article->Metas->procpy5;  ?></strong></span><?php  echo $article->Metas->prospmc;  ?></small></a>
-</div>

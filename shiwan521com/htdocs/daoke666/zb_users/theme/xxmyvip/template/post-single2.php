@@ -7,7 +7,7 @@
 <dd class="kan">
 {$article.Content}
 {$zbp->Config('xxmyvip')->PostDBLY}
-<p>本文链接：<a href="{$article.Url}">{$article.Url}</a></p>
+<!--<p>本文链接：<a href="{$article.Url}">{$article.Url}</a></p>-->
 <div id="wendibu">
 <center>
 {$zbp->Config('xxmyvip')->PostDBDS}

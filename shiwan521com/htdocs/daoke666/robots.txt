@@ -1,2 +1,8 @@
-User-agent: *
+User-agent: Baiduspider
 Disallow: /
+
+User-agent: 360spider
+Disallow: /
+
+User-agent: *
+Allow: /

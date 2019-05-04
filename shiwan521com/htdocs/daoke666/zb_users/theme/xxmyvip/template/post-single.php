@@ -19,7 +19,6 @@
 <dd class="kan">
 {$article.Content}
 {$zbp->Config('xxmyvip')->PostDBLY}
-<p>本文链接：<a href="{$article.Url}">{$article.Url}</a></p>
 <div id="wendibu">
 <center>
 {$zbp->Config('xxmyvip')->PostDBDS}
@@ -47,12 +46,6 @@
 {$zbp->Config('xxmyvip')->PostTJYD}
 </div>
 </center>
-{if $article.Prev}
-<a class="shang" href="{$article.Prev.Url}" title="{$article.Prev.Title}"><span class="fanyeyd">&lt;&lt; 上一篇</span></a>
-{/if}
-{if $article.Next}
-<a class="xiat" href="{$article.Next.Url}" title="{$article.Next.Title}"><span class="fanyeyd">下一篇 &gt;&gt;</span></a>
-{/if}
 </dd>
 </dl>
 <div class="fabiaokuang">

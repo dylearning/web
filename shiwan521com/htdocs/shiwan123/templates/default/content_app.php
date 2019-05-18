@@ -38,8 +38,8 @@ else{echo $con['seo_desc'];}?>" />
                         <?php // echo $c->google_qrcode(urlencode(SITE_URL.SITE_PATH.'download.php?hid='.$con['history'][0]['appcms_history_id']),"140");
 				echo $c->liantu_qcode(urlencode(SITE_URL.SITE_PATH.'download.php?hid='.$con['history'][0]['appcms_history_id']), 140, $logo = null);
 ?>
-                        <p>扫描二维码，快速下载本应用</p>
-                        <p>推荐用 <a href="<?php echo(SITE_PATH.'index.php?tpl=search&q='.urlencode('我查查'));?>" style="color:blue">我查查</a> 扫描</p>
+                        <p>扫描二维码，手机下载本应用</p>
+                       
                     </div>
                     <div class="app-info-i">
                         <a href="<?php echo $con['surl']?>" class="l rank-img"><img src="<?php echo $con['app_logo']?>" border="0" alt=""></a>
@@ -67,8 +67,9 @@ else{echo $con['seo_desc'];}?>" />
                             return false;
                         }
                         </script>
-                        <a class="install" name="<?php echo $con['app_title'];?>" id="tdownurl" href="javascript:void(0);" onclick="return down_apk(this);" title="安装豌豆荚，把手机连接到电脑后，可以直接安装到手机"></a>
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果无法下载，<span>点此 <a style="color:blue;" href="javascript:void(0)" onClick="setbug('<?php echo $con['history'][0]['appcms_history_id']?>','<?php echo DATA_CENTER_URL;?>')">提交错误</a></span>
+
+                        <p><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#63B8FF;font-size:12px;">苹果版请使用苹果Safari浏览器访问本站下载，或扫描右侧二维码</span></p>
+
                     </div>
                     <p class="hr"></p>
                     <div class="screenshot">
@@ -90,7 +91,7 @@ else{echo $con['seo_desc'];}?>" />
                                         <li><?php echo $his['app_size']; ?></li>
                                         <li><?php echo date("Y-m-d",$his['app_update_time']);?></li>
                                         <li><?php echo $his['app_system']; ?></li>
-                                        <li><a class="his_down" style="float:right;" href="<?php echo $his['surl']; ?>" title="下载"></a></li>
+                                        <li><a class="his_down" style="float:right;" href="javascript:void(0);"  onclick="window.open('<?php echo(SITE_PATH.'download.php?id='.$con['history'][0]['appcms_history_id']);?>');"  title="下载"></a></li>
                                     </ul>
                                 </li>
                                 <?php } ?>

@@ -57,6 +57,11 @@ function do_search(){
                             }
                         }
                     ?>
+
+                    <li>
+                        <a href="<?php echo $c->url->encode('special_list', array('host' => '/','p' => 1));?>" <?php if(strstr($_SERVER['QUERY_STRING'],'special')) echo 'class="selected"';?>>专题 </a>
+                    </li>
+
                     <li>
                         <a href="<?php echo $c->url->encode('lastupdate', array('host' => '/','p' => 1));?>" <?php if(strstr($_SERVER['QUERY_STRING'],'lastupdate')) echo 'class="selected"';?>>最新</a>
                     </li>

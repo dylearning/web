@@ -16,7 +16,7 @@
 }
 </style>
 <script language="javascript" type="text/javascript">
-var auth='<?php echo(AUTH_CODE); ?>';//授权码
+var auth=true;//'<?php echo(AUTH_CODE); ?>';//授权码
 var data_center_url='<?php echo(DATA_CENTER_URL); ?>';//数据中心
 var local_cate=<?php echo(json_encode($c->categories));?>;//本地分类
 </script>

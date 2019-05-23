@@ -4,7 +4,7 @@
 <dd class="kan">
 <?php  echo $article->Content;  ?>
 <?php  echo $zbp->Config('xxmyvip')->PostDBLY;  ?>
-<p>本文链接：<a href="<?php  echo $article->Url;  ?>"><?php  echo $article->Url;  ?></a></p>
+<!--<p>本文链接：<a href="<?php  echo $article->Url;  ?>"><?php  echo $article->Url;  ?></a></p>-->
 <div id="wendibu">
 <center>
 <?php  echo $zbp->Config('xxmyvip')->PostDBDS;  ?>
@@ -28,12 +28,6 @@
 <?php  echo $zbp->Config('xxmyvip')->PostTJYD;  ?>
 </div>
 </center>
-<?php if ($article->Prev) { ?>
-<a class="shang" href="<?php  echo $article->Prev->Url;  ?>" title="<?php  echo $article->Prev->Title;  ?>"><span class="fanyeyd">&lt;&lt; 上一篇</span></a>
-<?php } ?>
-<?php if ($article->Next) { ?>
-<a class="xiat" href="<?php  echo $article->Next->Url;  ?>" title="<?php  echo $article->Next->Title;  ?>"><span class="fanyeyd">下一篇 &gt;&gt;</span></a>
-<?php } ?>
 </dd>
 </dl>
 <div class="fabiaokuang">

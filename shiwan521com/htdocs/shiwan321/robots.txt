@@ -1,0 +1,11 @@
+Disallow: /bak/
+Disallow: /banner/
+Disallow: /course/
+Disallow: /images/
+Disallow: /ios/
+
+Disallow: .jpg$
+Disallow: .jpeg$
+Disallow: .gif$
+Disallow: .png$
+Disallow: .bmp$

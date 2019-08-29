@@ -2,6 +2,10 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteCond %{HTTP_HOST} ^shiwan321.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/shiwan321/
+RewriteRule ^(.*)$ shiwan321/$1?Rewrite [L,QSA]
+
 RewriteCond %{HTTP_HOST} ^www.shiwan321.com$ [NC]
 RewriteCond %{REQUEST_URI} !^/shiwan321/
 RewriteRule ^(.*)$ shiwan321/$1?Rewrite [L,QSA]

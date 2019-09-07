@@ -1,0 +1,40 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www.shiwan123.cn$ [NC]
+RewriteCond %{REQUEST_URI} !^/shiwan123/
+RewriteRule ^(.*)$ shiwan123/$1?Rewrite [L,QSA]
+RewriteCond %{HTTP_HOST} ^shiwan123.cn$ [NC]
+RewriteRule ^(.*)$ http://www.shiwan123.cn/$1 [L,R=301]
+
+
+RewriteCond %{HTTP_HOST} ^www.shouzhuanmiao.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/shouzhuanmiao/
+RewriteRule ^(.*)$ shouzhuanmiao/$1?Rewrite [L,QSA]
+RewriteCond %{HTTP_HOST} ^shouzhuanmiao.com$ [NC]
+RewriteRule ^(.*)$ http://www.shouzhuanmiao.com/$1 [L,R=301]
+
+
+RewriteCond %{HTTP_HOST} ^www.daoke666.cn$ [NC]
+RewriteCond %{REQUEST_URI} !^/daoke666/
+RewriteRule ^(.*)$ daoke666cn/$1?Rewrite [L,QSA]
+RewriteCond %{HTTP_HOST} ^daoke666.cn$ [NC]
+RewriteRule ^(.*)$ http://www.daoke666.cn/$1 [L,R=301]
+
+
+RewriteCond %{HTTP_HOST} ^www.shouzhuan321.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/shouzhuan321/
+RewriteRule ^(.*)$ daoke666cn/$1?Rewrite [L,QSA]
+RewriteCond %{HTTP_HOST} ^shouzhuan321.com$ [NC]
+RewriteRule ^(.*)$ http://www.shouzhuan321.com/$1 [L,R=301]
+
+
+RewriteCond %{HTTP_HOST} ^www.shouzhuan321.cn$ [NC]
+RewriteCond %{REQUEST_URI} !^/shouzhuan321cn/
+RewriteRule ^(.*)$ daoke666cn/$1?Rewrite [L,QSA]
+RewriteCond %{HTTP_HOST} ^shouzhuan321.cn$ [NC]
+RewriteRule ^(.*)$ http://www.shouzhuan321.cn/$1 [L,R=301]
+
+
+</IfModule>

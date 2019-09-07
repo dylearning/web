@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title><?php if($con['seo_title']==''){echo $con['app_title'].'下载_'.$con['app_title'].'app下载 _'.$con['app_title'].'手机赚钱软件是真的吗,怎么玩? - '.SITE_NAME;}
+<title><?php if($con['seo_title']==''){echo $con['app_title'].'下载_'.$con['app_title'].'app下载 _'.$con['app_title'].'试玩手机赚钱软件是真的吗,怎么玩? - '.SITE_NAME;}
 else{echo $con['seo_title'].'-'.SITE_NAME;}?></title>
 <meta name="keywords" content="<?php if($con['seo_keywords']==''){echo $con['app_title'];}
 else{echo $con['seo_keywords'];}?>" />

@@ -11,13 +11,13 @@
  * 定义数据库配置参数
  */
 // 数据库host名称
-define('DB_HOST', 'xdm576923346.my3w.com');
+define('DB_HOST', 'hdm682332228.my3w.com');
 // 数据库用户名
-define('DB_USERNAME', 'xdm576923346');
+define('DB_USERNAME', 'hdm682332228');
 //数据库密码
-define('DB_PASS', 'Qwer@1234');
+define('DB_PASS', 'Asdf@1234');
 //数据库
-define('DB_DBNAME', 'xdm576923346_db');
+define('DB_DBNAME', 'hdm682332228_db');
 //数据库编码
 define('DB_CHARSET', 'utf8');
 //表名前缀

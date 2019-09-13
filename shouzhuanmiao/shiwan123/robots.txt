@@ -1,4 +1,4 @@
 User-agent: *
 
-Disallow: /images/
-Disallow: /course/
+Disallow: /ios/images/
+Disallow: /ios/course/

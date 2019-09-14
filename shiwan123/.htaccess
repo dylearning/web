@@ -6,7 +6,7 @@ RewriteCond %{HTTP_HOST} ^www.shiwan123.cn$ [NC]
 RewriteCond %{REQUEST_URI} !^/shiwan123/
 RewriteRule ^(.*)$ shiwan123/$1?Rewrite [L,QSA]
 RewriteCond %{HTTP_HOST} ^shiwan123.cn$ [NC]
-RewriteRule ^(.*)$ http://www.shiwan123.cn/$1 [L,R=301]
+RewriteRule ^(.*)$ https://www.shiwan123.cn/$1 [L,R=301]
 
 
 RewriteCond %{HTTP_HOST} ^www.shouzhuanmiao.com$ [NC]
